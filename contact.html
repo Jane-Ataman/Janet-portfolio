@@ -58,12 +58,12 @@
               ><i class="bi bi-person navicon"></i><span>About</span></a
             >
           </li>
-          <!--li>
+          <!--<li>
             <a href="#resume"
               ><i class="bi bi-file-earmark-text navicon"></i
               ><span>Resume</span></a
             >
-          </!--li>-->
+          </li>-->
           <li>
             <a href="portfolio-details.html"
               ><i class="bi bi-images navicon"></i><span>Portfolio</span></a
@@ -83,44 +83,140 @@
       </nav>
     </header>
 
-    <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section light-background">
-        <img src="assets/img/hero-bg.png" alt="" />
-
-        <div class="container" data-aos="zoom-out">
-          <div class="row justify-content-center">
-            <div class="col-lg-9">
-              <h2>Janet Ataman</h2>
-              <p>
-                I'm
-                <span
-                  class="typed"
-                  data-typed-items=" a Virtual Tutor, a Developer, a Freelancer, a Designer"
-                  ><!--a Designer--></span
-                ><span
-                  class="typed-cursor typed-cursor--blink"
-                  aria-hidden="true"
-                ></span>
-              </p>
-              <div class="social-links">
+            <!--  <div class="social-links">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
-                <a href="https://www.facebook.com/jane.asu?mibextid=LQQJ4d"
-                  ><i class="bi bi-facebook"></i
-                ></a>
-                <a
-                  href="https://www.instagram.com/janeataman?igsh=Y3B0ZjF4a3Zkc3Vi&utm_source=qr"
-                  ><i class="bi bi-instagram"></i
-                ></a>
-                <a href="http://linkedin.com/in/janet-ataman-527467149"
-                  ><i class="bi bi-linkedin"></i
-                ></a>
-              </div>
+                <a href="https://www.facebook.com/jane.asu?mibextid=LQQJ4d"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/janeataman?igsh=Y3B0ZjF4a3Zkc3Vi&utm_source=qr"><i class="bi bi-instagram"></i></a>
+                <a href="http://linkedin.com/in/janet-ataman-527467149"><i class="bi bi-linkedin"></i></a>
+              </div>-->
             </div>
           </div>
         </div>
       </section>
-      <!-- /Hero Section -->
+      
+
+      
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <!--<p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>-->
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Ikorodu, Lagos, Nigeria</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+234 8075 7561 86</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>janeataman1@gmail.com</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+            </div>
+
+            <div class="col-lg-8">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Subject"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
     </main>
 
     <footer id="footer" class="footer position-relative light-background">
@@ -132,24 +228,15 @@
         </p>-->
         <div class="social-links d-flex justify-content-center">
           <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href="https://www.facebook.com/jane.asu?mibextid=LQQJ4d"
-            ><i class="bi bi-facebook"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/janeataman?igsh=Y3B0ZjF4a3Zkc3Vi&utm_source=qr"
-            ><i class="bi bi-instagram"></i
-          ></a>
+          <a href="https://www.facebook.com/jane.asu?mibextid=LQQJ4d"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/janeataman?igsh=Y3B0ZjF4a3Zkc3Vi&utm_source=qr"><i class="bi bi-instagram"></i></a>
           <a href=""><i class="bi bi-skype"></i></a>
-          <a href="http://linkedin.com/in/janet-ataman-527467149"
-            ><i class="bi bi-linkedin"></i
-          ></a>
+          <a href="http://linkedin.com/in/janet-ataman-527467149"><i class="bi bi-linkedin"></i></a>
         </div>
         <div class="container">
           <div class="copyright">
             <span>Copyright</span>
-            <strong class="px-1 sitename"
-              >Janet Ataman, HerTechTrail Cohort 10 Capstone Project</strong
-            >
+            <strong class="px-1 sitename">Janet Ataman, HerTechTrail Cohort 10 Capstone Project</strong>
             <span>All Rights Reserved</span>
           </div>
           <div class="credits">
